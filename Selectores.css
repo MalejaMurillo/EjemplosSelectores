@@ -1,0 +1,32 @@
+/* Selector Universal */
+*{
+  font-size: 25px;
+}
+
+*[lang=en]{
+  color: rgb(142, 33, 175);
+}
+
+/* Selector de clase, Se usa con un (.) seguido del nombre de la clase */
+.volver{
+  background: rgb(50, 192, 227);
+}
+
+.clasico{
+  background: rgb(87, 164, 69);
+  font-weight: bold;
+}
+
+p.clasico{
+  color: red;
+  background: none;
+}
+
+.clasico.añadido{
+  font-style: italic;
+}
+
+/* Selector de id, se usa con un (#) inicial seguido del id */
+#marcado{
+  border: 2px solid rgb(26, 15, 61);
+}

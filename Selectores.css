@@ -16,11 +16,14 @@
   background: rgb(87, 164, 69);
   font-weight: bold;
 }
+/* Este ejemplo hace referencia a todos los elementos p que tengan como atributo class = "clasico" */
 
 p.clasico{
   color: red;
   background: none;
 }
+
+/* Este ejemplo se aplica unicamente a los elementos que contengan las clases clasico y añadido (class ="clasico añadido") */
 
 .clasico.añadido{
   font-style: italic;
